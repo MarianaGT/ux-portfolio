@@ -151,7 +151,11 @@ header button {
   background-color: var(--gray-blue);
 }
 
-.section-4 button, .section-5 button {
+.section-4 p, .section-5 p, .section-6 p {
+  margin: 0.3em;
+}
+
+.section-4 button, .section-5 button, .section-6 button {
   color: white;
   background-color: var(--charcoal);
   border: none;
@@ -161,12 +165,12 @@ header button {
   float: right;
 }
 
-.section-4 .mobile {
+.section-4 .mobile, .section-6 .mobile {
   height: 24em;
   margin: 1em;
 }
 
-.section-4 h5 {
+.section-4 h5, .section-6 h5 {
   float: right;
 }
 
