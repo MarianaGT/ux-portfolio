@@ -43,6 +43,7 @@ h5 {
   padding: 0.5em 1em;
   border-radius: 40px 40px 40px 0;
   display: inline-block;
+  margin: 2em;
 }
 
 .center {
@@ -168,6 +169,10 @@ header button {
 .section-4 .mobile, .section-6 .mobile {
   height: 24em;
   margin: 1em;
+}
+
+.mobile-box {
+  margin-top: 4em;
 }
 
 .section-4 h5, .section-6 h5 {
