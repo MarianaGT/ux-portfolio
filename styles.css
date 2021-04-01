@@ -152,24 +152,11 @@ header p {
   margin: 0.5em 0.3em 0.3em 0;
 }
 
-.speech-bubble {
-  background-image: url("images/chat.png");
-  height: 5em;
-  width: 7em;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: inline-block;
-  font-family: var(--gloria);
-  text-align: bottom;
-}
-
 .opposite {
   border-radius: 40px 40px 0 40px;
 }
 
 /* Section 1 */
-
 .section-1 {
   padding: 3em;
 }
@@ -188,30 +175,34 @@ header p {
 }
 
 .help-box {
-  margin: 2em auto;
+  margin: 1.5em auto;
 }
 
 .help h3 {
-  margin: 2em;
+  margin: 1.5em auto;
 }
 
+/* Section 2 */
 .section-2 {
   padding: 3em;
   background-color: var(--red);
+}
+
+.section-2 h1 {
+  margin: 0.2em auto;
 }
 
 .section-2 h2 {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 3em;
-  margin: 0.5em auto;
+  margin: 0.2em auto;
 }
 
 .arrow {
   margin: -2em auto;
   height: 10em;
   display: block;
-
 }
 
 .section-3 {
