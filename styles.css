@@ -154,14 +154,8 @@ header img {
   border-bottom: 1px solid var(--blue);
 }
 
-.flex {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.flex ul {
-  margin-top: 0;
+.help-box {
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 768px) {
