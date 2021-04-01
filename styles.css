@@ -156,7 +156,12 @@ header button {
   margin: 0.3em;
 }
 
-.section-4 button, .section-5 button, .section-6 button {
+.material-icons.m-0 {
+  float: right;
+  margin-left: 0.3em;
+}
+
+.btn-black {
   color: white;
   background-color: var(--charcoal);
   border: none;
@@ -164,6 +169,13 @@ header button {
   font-size: 1.2em;
   padding: 0.3em 0.7em;
   float: right;
+}
+
+.btn-black:hover, header button:hover {
+  color: var(--charcoal);
+  background-color: white;
+  border: 1px solid var(--charcoal);
+  font-family: var(--lora);
 }
 
 .section-4 .mobile, .section-6 .mobile {
@@ -207,4 +219,5 @@ header button {
   padding: 3em;
   background-color: var(--gray-green);
 }
+
 
