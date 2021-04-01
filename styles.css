@@ -6,6 +6,9 @@
   --gray-blue: #C3EBEE;
   --gray-purple: #E2EEEF;
   --gray-green: #EDF9E7;
+  --lora: 'Lora', serif;
+  --gloria: 'Gloria Hallelujah', cursive;
+  --source: 'Source Sans Pro', sans-serif;
 }
 
 header {
