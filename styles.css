@@ -119,4 +119,14 @@ header button {
   height: 10em;
 }
 
+.section-3 {
+  padding: 3em;
+  background-color: var(--yellow);
+}
+
+.people {
+  margin-top: -14em;
+  height: 10em;
+}
+
 
