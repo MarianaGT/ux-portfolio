@@ -13,48 +13,82 @@
     <div class="auto-margin">
       <h1 class="center">Imagination matters.</h1>
       <img src="images/rock.png" alt="rock">
+      <img id="displayGif" src="images/rock.gif" alt="animated rock">
       <p class="center">This is a stone.</p>
       <p class="center">Boring?</p>
-      <button id="menuBtn">Look closer</button>
+      <button id="gifBtn" class="btn-white" >Look closer</button>
+      <button id="pageBtn" class="btn-arrow"><span class="material-icons md-48">expand_more</span></button>
     </div>
   </header>
-  <section id="menuModal" class="section-1">
-    <div class="auto-margin welcome-box">
-      <h3 class="blue center">Welcome</h3>
-      <h2 class="center">I'm Mariana, <strong>UX Designer</strong> and <strong>Web Developer</strong></h2>
-    </div>
-    <div class="auto-margin help flex">
-      <h3 class="blue center">I can help you</h3>
-      <ul class="help-box">
-        <li>Shape a delightful journey for your users based on their needs</li>
-        <li>Plan and conduct user research and competitor analysis</li>
-        <li>Structure information architecture and site maps</li>
-        <li>Create interactive prototypes and wireframes</li>
-        <li>Build Web User Interfaces</li>
-        <li>Conduct usability testing with data driven metrics</li>
-      </ul>
-    </div>
-  </section>
-  <section class="section-2">
-    <h3 class="center white">I am a</h3>
-    <div class="flex space-around white">
-      <h2>critical</h2>
-      <h2>independent</h2>
-      <h2>imaginative</h2>
-    </div>
-    <h1 class="center charcoal">thinker</h1>
-  </section>
-  <img class="arrow" src="images/arrow.png" alt="arrow up">
-  <section class="section-3">
-    <h3 class="center">I have worked with people around the world</h3>
-    <p>I am a constellation of undetermined work</p>
-  </section>
-  <img class="people" src="images/people.png" alt="people">
-  <section class="section-4">
-    <h3 class="center">I have built</h3>
-    <div class="grid">
-      <div>
-        <h2><span>BCR</span> is an app to find and share bicycle routes in the city.</h2>
+  <div id="displayPage">
+    <section  class="section-1">
+      <div class="auto-margin welcome-box">
+        <h3 class="blue center">Welcome</h3>
+        <h2 class="center">I'm Mariana, <strong>UX Designer</strong> and <strong>Web Developer</strong></h2>
+      </div>
+      <div class="auto-margin help flex">
+        <h3 class="blue center">I can help you</h3>
+        <ul class="help-box">
+          <li>Shape a delightful journey for your users based on their needs</li>
+          <li>Plan and conduct user research and competitor analysis</li>
+          <li>Structure information architecture and site maps</li>
+          <li>Create interactive prototypes and wireframes</li>
+          <li>Build Web User Interfaces</li>
+          <li>Conduct usability testing with data driven metrics</li>
+        </ul>
+      </div>
+    </section>
+    <section class="section-2">
+      <h3 class="center white">I am a</h3>
+      <div class="flex space-around white">
+        <h2>critical</h2>
+        <h2>independent</h2>
+        <h2>imaginative</h2>
+      </div>
+      <h1 class="center charcoal">thinker</h1>
+    </section>
+    <img class="arrow" src="images/arrow.png" alt="arrow up">
+    <section class="section-3">
+      <h3 class="center">I have worked with people around the world</h3>
+      <p>I am a constellation of undetermined work</p>
+    </section>
+    <img class="people" src="images/people.png" alt="people">
+    <section class="section-4">
+      <h3 class="center">I have built</h3>
+      <div class="grid">
+        <div>
+          <h2><span>BCR</span> is an app to find and share bicycle routes in the city.</h2>
+          <div class="auto-margin">
+            <div class="flex">
+              <div class="m-1">
+                <p>Role</p>
+                <p>Date</p>
+                <p>Description</p>
+              </div>
+              <div class="m-1">
+                <p>UX Designer</p>
+                <p>2021</p>
+                <p>Prototype for a web app. Complete UX process from Research to High-Fidelity mockup.</p>
+              </div>
+            </div>
+            <button class="btn-black">Case study board <span class="material-icons m-r">arrow_right_alt</span></button>
+          </div>
+        </div>
+        <div>
+          <h5>Enough! Cars don't respect bicycles</h5>
+          <div class="flex mobile-box">
+            <img class="mobile" src="images/bc1.png" alt="mobile screen">
+            <img class="mobile" src="images/bc2.png" alt="mobile screen">
+            <img class="mobile" src="images/bc3.png" alt="mobile screen">
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="col-2">
+      <section class="section-5">
+        <h5>I feel so indecisive...</h5><br>
+        <img src="images/dfm1.png" alt="desktop screen">
+        <h2><span>Decide for me</span> will allow you to share your dilemmas with other users to help you come up with a better decision.</h2>
         <div class="auto-margin">
           <div class="flex">
             <div class="m-1">
@@ -68,68 +102,39 @@
               <p>Prototype for a web app. Complete UX process from Research to High-Fidelity mockup.</p>
             </div>
           </div>
-          <button class="btn-black">Case study board <span class="material-icons m-0">arrow_right_alt</span></button>
+          <button class="btn-black">Case study board <span class="material-icons m-r">arrow_right_alt</span></button>
         </div>
-      </div>
-      <div>
-        <h5>Enough! Cars don't respect bicycles</h5>
-        <div class="flex mobile-box">
-          <img class="mobile" src="images/bc1.png" alt="mobile screen">
-          <img class="mobile" src="images/bc2.png" alt="mobile screen">
-          <img class="mobile" src="images/bc3.png" alt="mobile screen">
+      </section>
+      <section class="section-6">
+        <h5>Help administrating!</h5><br>
+        <h2><span>Keepo</span> keeps neighbours up to date with their condo payments.</h2>
+        <div class="auto-margin">
+          <div class="flex">
+            <div class="m-1">
+              <p>Role</p>
+              <p>Date</p>
+              <p>Description</p>
+            </div>
+            <div class="m-1">
+              <p>UX Designer</p>
+              <p>2021</p>
+              <p>Prototype for a web app. Complete UX process from Research to High-Fidelity mockup.</p>
+            </div>
+          </div>
+          <button class="btn-black">Case study board <span class="material-icons m-r">arrow_right_alt</span></button>
         </div>
-      </div>
+        <div class="mobile-box">
+          <img class="mobile" src="images/k1.png" alt="">
+          <img class="mobile" src="images/k2.png" alt="">
+          <img class="mobile" src="images/k3.png" alt="">
+        </div>
+      </section>
     </div>
-  </section>
-  <div class="col-2">
-    <section class="section-5">
-      <h5>I feel so indecisive...</h5><br>
-      <img src="images/dfm1.png" alt="desktop screen">
-      <h2><span>Decide for me</span> will allow you to share your dilemmas with other users to help you come up with a better decision.</h2>
-      <div class="auto-margin">
-        <div class="flex">
-          <div class="m-1">
-            <p>Role</p>
-            <p>Date</p>
-            <p>Description</p>
-          </div>
-          <div class="m-1">
-            <p>UX Designer</p>
-            <p>2021</p>
-            <p>Prototype for a web app. Complete UX process from Research to High-Fidelity mockup.</p>
-          </div>
-        </div>
-        <button class="btn-black">Case study board <span class="material-icons m-0">arrow_right_alt</span></button>
-      </div>
-    </section>
-    <section class="section-6">
-      <h5>Help administrating!</h5><br>
-      <h2><span>Keepo</span> keeps neighbours up to date with their condo payments.</h2>
-      <div class="auto-margin">
-        <div class="flex">
-          <div class="m-1">
-            <p>Role</p>
-            <p>Date</p>
-            <p>Description</p>
-          </div>
-          <div class="m-1">
-            <p>UX Designer</p>
-            <p>2021</p>
-            <p>Prototype for a web app. Complete UX process from Research to High-Fidelity mockup.</p>
-          </div>
-        </div>
-        <button class="btn-black">Case study board <span class="material-icons m-0">arrow_right_alt</span></button>
-      </div>
-      <div class="mobile-box">
-        <img class="mobile" src="images/k1.png" alt="">
-        <img class="mobile" src="images/k2.png" alt="">
-        <img class="mobile" src="images/k3.png" alt="">
-      </div>
-    </section>
+    <footer>
+      <h3>Contact</h3>
+    </footer>
   </div>
-  <footer>
-    <h3>Contact</h3>
-  </footer>
+
 
 </body>
 <script src="script.js"></script>

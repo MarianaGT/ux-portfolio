@@ -72,8 +72,8 @@ h5 {
 }
 
 header img {
-  height: 7em;
-  margin: 3em auto;
+  height: 15em;
+  margin: 2em auto;
   display: block;
 }
 
@@ -81,7 +81,7 @@ header p {
   font-family: var(--source);
 }
 
-header button {
+.btn-white {
   color: var(--blue);
   background-color: white;
   border: none;
@@ -92,9 +92,45 @@ header button {
   display: block;
 }
 
+.btn-arrow {
+  color: white;
+  background-color: var(--blue);
+  border: none;
+  margin: 0 auto;
+  display: block;
+}
+
+.btn-black {
+  color: white;
+  background-color: var(--charcoal);
+  border: none;
+  font-family: var(--lora);
+  font-size: 1.2em;
+  padding: 0.3em 0.7em;
+  float: right;
+}
+
+.btn-black:hover, .btn-white:hover {
+  color: var(--charcoal);
+  background-color: white;
+  border: 1px solid var(--charcoal);
+  font-family: var(--lora);
+}
+
+.btn-arrow:hover {
+  color: var(--charcoal);
+}
+
+#displayPage {
+  display: none;
+}
+
+#displayGif {
+  display: none;
+}
+
 .section-1 {
   padding: 3em;
-  display: none;
 }
 
 .welcome-box {
@@ -157,26 +193,13 @@ header button {
   margin: 0.3em;
 }
 
-.material-icons.m-0 {
+.material-icons.m-r {
   float: right;
   margin-left: 0.3em;
 }
 
-.btn-black {
-  color: white;
-  background-color: var(--charcoal);
-  border: none;
-  font-family: var(--lora);
-  font-size: 1.2em;
-  padding: 0.3em 0.7em;
-  float: right;
-}
-
-.btn-black:hover, header button:hover {
-  color: var(--charcoal);
-  background-color: white;
-  border: 1px solid var(--charcoal);
-  font-family: var(--lora);
+.material-icons.md-48 {
+  font-size: 48px;
 }
 
 .section-4 .mobile, .section-6 .mobile {
