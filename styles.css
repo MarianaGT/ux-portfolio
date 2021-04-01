@@ -115,6 +115,15 @@ header img {
   color: var(--charcoal);
 }
 
+.material-icons.m-r {
+  float: right;
+  margin-left: 0.3em;
+}
+
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
 #displayPage {
   display: none;
 }
@@ -186,6 +195,18 @@ header img {
   display: block;
 }
 
+/* Section 3 */
+.section-3 {
+  padding: 2em;
+  background-color: var(--yellow);
+}
+
+.people {
+  margin: -5em auto;
+  height: 10em;
+  display: block;
+}
+
 @media only screen and (min-width: 768px) {
 
   header {
@@ -233,7 +254,6 @@ header img {
   /* Section 3 */
   .section-3 {
     padding: 3em;
-    background-color: var(--yellow);
   }
 
   .people {
@@ -242,6 +262,7 @@ header img {
     display: block;
   }
 
+  /* Section 4 */
   .section-4 {
     padding: 3em;
     background-color: var(--gray-blue);
@@ -251,14 +272,7 @@ header img {
     margin: 0.3em;
   }
 
-  .material-icons.m-r {
-    float: right;
-    margin-left: 0.3em;
-  }
 
-  .material-icons.md-48 {
-    font-size: 48px;
-  }
 
   .section-4 .mobile, .section-6 .mobile {
     height: 24em;
