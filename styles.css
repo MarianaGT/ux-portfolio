@@ -135,7 +135,35 @@ header p {
 
 #displayChat {
   display: none;
+
 }
+
+.chat {
+  margin-top: -5em;
+  text-align: center;
+}
+
+.chat h5 {
+  margin: 0.5em 2em;
+}
+
+.speech-bubble {
+  background-image: url("images/chat.png");
+  height: 5em;
+  width: 7em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  font-family: var(--gloria);
+  text-align: bottom;
+}
+
+.opposite {
+  border-radius: 40px 40px 0 40px;
+}
+
+/* Section 1 */
 
 .section-1 {
   padding: 3em;
