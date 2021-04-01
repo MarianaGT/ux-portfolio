@@ -70,5 +70,22 @@ header button {
 }
 
 .section-1 {
+  padding: 3em;
+}
 
+.welcome-box {
+  border-bottom: 1px solid var(--blue);
+  padding: 2em;
+}
+
+.flex {
+  display: flex;
+}
+
+.help-box {
+  margin: 2em auto;
+}
+
+.help h3 {
+  margin: 2em;
 }
