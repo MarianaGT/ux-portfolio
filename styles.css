@@ -50,6 +50,14 @@ h3 {
   color: var(--blue);
 }
 
+.white {
+  color: white;
+}
+
+.charcoal {
+  color: var(--charcoal);
+}
+
 header img {
   height: 5.5em;
   margin: 3em auto;
@@ -82,6 +90,10 @@ header button {
   display: flex;
 }
 
+.space-around {
+  justify-content: space-around;
+}
+
 .help-box {
   margin: 2em auto;
 }
@@ -89,3 +101,22 @@ header button {
 .help h3 {
   margin: 2em;
 }
+
+.section-2 {
+  padding: 3em;
+  background-color: var(--red);
+}
+
+.section-2 h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 3em;
+  margin: 0.5em auto;
+}
+
+.arrow {
+  margin: -2em auto;
+  height: 10em;
+}
+
+
