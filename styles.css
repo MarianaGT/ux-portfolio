@@ -18,11 +18,11 @@ body {
 
 header {
   background-color: var(--blue);
-  padding: 3em;
+  padding: 1em;
 }
 
 header h1 {
-  margin: 2em auto;
+  margin: 2em 0 1em 0;
 }
 
 h1 {
@@ -53,11 +53,6 @@ h5 {
   text-align: center;
 }
 
-.auto-margin {
-  width: 60%;
-  margin: 0 auto;
-}
-
 .m-1 {
   margin: 1em;
 }
@@ -79,11 +74,6 @@ header img {
   margin: 2em auto;
   display: block;
 }
-
-header p {
-  font-family: var(--source);
-}
-
 
 .btn-white {
   color: var(--blue);
@@ -140,11 +130,10 @@ header p {
 
 #displayChat {
   display: none;
-
 }
 
 .chat {
-  margin-top: -5em;
+  margin-top: -3em;
   text-align: center;
 }
 
@@ -163,117 +152,148 @@ header p {
 
 .welcome-box {
   border-bottom: 1px solid var(--blue);
-  padding: 2em;
 }
 
 .flex {
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.space-around {
-  justify-content: space-around;
+.flex ul {
+  margin-top: 0;
 }
 
-.help-box {
-  margin: 1.5em auto;
+@media only screen and (min-width: 768px) {
+
+  header {
+    background-color: var(--blue);
+    padding: 3em;
+  }
+
+  .auto-margin {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .chat {
+    margin-top: -3em;
+    text-align: center;
+  }
+
+  /* Section 1 */
+  .welcome-box {
+    border-bottom: 1px solid var(--blue);
+    padding: 2em;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .space-around {
+    justify-content: space-around;
+  }
+
+  .help-box {
+    margin: 1.5em auto;
+  }
+
+  .help h3 {
+    margin: 1.5em auto;
+  }
+
+  /* Section 2 */
+  .section-2 {
+    padding: 3em;
+    background-color: var(--red);
+  }
+
+  .section-2 h1 {
+    margin: 0.2em auto;
+  }
+
+  .section-2 h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 3em;
+    margin: 0.2em auto;
+  }
+
+  .arrow {
+    margin: -2em auto;
+    height: 10em;
+    display: block;
+  }
+
+  .section-3 {
+    padding: 3em;
+    background-color: var(--yellow);
+  }
+
+  .people {
+    margin: -5em auto;
+    height: 10em;
+    display: block;
+  }
+
+  .section-4 {
+    padding: 3em;
+    background-color: var(--gray-blue);
+  }
+
+  .section-4 p, .section-5 p, .section-6 p {
+    margin: 0.3em;
+  }
+
+  .material-icons.m-r {
+    float: right;
+    margin-left: 0.3em;
+  }
+
+  .material-icons.md-48 {
+    font-size: 48px;
+  }
+
+  .section-4 .mobile, .section-6 .mobile {
+    height: 24em;
+    margin: 1em;
+  }
+
+  .mobile-box {
+    margin-top: 4em;
+  }
+
+  .section-4 h5, .section-6 h5 {
+    float: right;
+  }
+
+  .section-4 h2 span, .section-5 h2 span, .section-6 h2 span {
+    font-family: var(--lora);
+    font-weight: 700;
+  }
+
+  .section-4 .grid {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+  }
+
+  .col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .section-5 {
+    padding: 3em;
+    background-color: var(--gray-purple);
+  }
+
+  .section-5 img {
+    height: 14em;
+  }
+
+  .section-6 {
+    padding: 3em;
+    background-color: var(--gray-green);
+  }
 }
-
-.help h3 {
-  margin: 1.5em auto;
-}
-
-/* Section 2 */
-.section-2 {
-  padding: 3em;
-  background-color: var(--red);
-}
-
-.section-2 h1 {
-  margin: 0.2em auto;
-}
-
-.section-2 h2 {
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 3em;
-  margin: 0.2em auto;
-}
-
-.arrow {
-  margin: -2em auto;
-  height: 10em;
-  display: block;
-}
-
-.section-3 {
-  padding: 3em;
-  background-color: var(--yellow);
-}
-
-.people {
-  margin: -5em auto;
-  height: 10em;
-  display: block;
-}
-
-.section-4 {
-  padding: 3em;
-  background-color: var(--gray-blue);
-}
-
-.section-4 p, .section-5 p, .section-6 p {
-  margin: 0.3em;
-}
-
-.material-icons.m-r {
-  float: right;
-  margin-left: 0.3em;
-}
-
-.material-icons.md-48 {
-  font-size: 48px;
-}
-
-.section-4 .mobile, .section-6 .mobile {
-  height: 24em;
-  margin: 1em;
-}
-
-.mobile-box {
-  margin-top: 4em;
-}
-
-.section-4 h5, .section-6 h5 {
-  float: right;
-}
-
-.section-4 h2 span, .section-5 h2 span, .section-6 h2 span {
-  font-family: var(--lora);
-  font-weight: 700;
-}
-
-.section-4 .grid {
-  display: grid;
-  grid-template-columns: 2fr 3fr;
-}
-
-.col-2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.section-5 {
-  padding: 3em;
-  background-color: var(--gray-purple);
-}
-
-.section-5 img {
-  height: 14em;
-}
-
-.section-6 {
-  padding: 3em;
-  background-color: var(--gray-green);
-}
-
-
