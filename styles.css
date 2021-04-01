@@ -94,6 +94,7 @@ header button {
 
 .section-1 {
   padding: 3em;
+  display: none;
 }
 
 .welcome-box {
