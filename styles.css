@@ -21,11 +21,14 @@ header {
   padding: 3em;
 }
 
+header h1 {
+  margin: 2em auto;
+}
+
 h1 {
   color: white;
   font-size: 3.5em;
   font-family: var(--lora);
-  margin: 0 auto;
 }
 
 h2 {
@@ -126,6 +129,11 @@ header p {
 }
 
 #displayGif {
+  display: none;
+  transition: ease-in 10s;
+}
+
+#displayChat {
   display: none;
 }
 
