@@ -11,6 +11,64 @@
   --source: 'Source Sans Pro', sans-serif;
 }
 
+body {
+  margin: 0 auto;
+  font-family: var(--source);
+}
+
 header {
-  background-color:
+  background-color: var(--blue);
+  padding: 3em;
+}
+
+h1 {
+  color: white;
+  font-size: 3.5em;
+  font-family: var(--lora);
+  margin: 0 auto;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-family: var(--lora);
+}
+
+.center {
+  text-align: center;
+}
+
+.auto-margin {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.blue {
+  color: var(--blue);
+}
+
+header img {
+  height: 5.5em;
+  margin: 3em auto;
+}
+
+header p {
+  font-family: var(--source);
+}
+
+header button {
+  color: var(--blue);
+  background-color: white;
+  border: none;
+  font-family: var(--lora);
+  font-size: 1.5em;
+  padding: 0.3em 0.7em;
+  margin: 0 auto;
+}
+
+.section-1 {
+
 }
