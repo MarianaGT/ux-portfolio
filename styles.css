@@ -84,6 +84,7 @@ header p {
   font-family: var(--source);
 }
 
+
 .btn-white {
   color: var(--blue);
   background-color: white;
@@ -131,6 +132,10 @@ header p {
 #displayGif {
   display: none;
   transition: ease-in 10s;
+}
+
+#gifBtn, #pageBtn {
+  margin-bottom: 10em;
 }
 
 #displayChat {
