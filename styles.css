@@ -72,7 +72,7 @@ header button {
   background-color: white;
   border: none;
   font-family: var(--lora);
-  font-size: 1.5em;
+  font-size: 1.2em;
   padding: 0.3em 0.7em;
   margin: 0 auto;
 }
@@ -129,4 +129,41 @@ header button {
   height: 10em;
 }
 
+.section-4 {
+  padding: 3em;
+  background-color: var(--gray-blue);
+}
+
+.section-4 button {
+  color: white;
+  background-color: var(--charcoal);
+  border: none;
+  font-family: var(--lora);
+  font-size: 1.2em;
+  padding: 0.3em 0.7em;
+  margin: 0 auto;
+}
+
+.section-4 .mobile {
+  height: 24em;
+  margin: 1em;
+}
+
+.section-4 h5 {
+  font-family: var(--gloria);
+  background-color: white;
+  padding: 0.5em 1em;
+  border-radius: 40px 40px 40px 0;
+  display: inline;
+}
+
+.section-4 h2 span {
+  font-family: var(--lora);
+  font-weight: 700;
+}
+
+.section-4 .grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
 
