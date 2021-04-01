@@ -145,6 +145,11 @@ header img {
   border-radius: 40px 40px 0 40px;
 }
 
+/* Section white */
+.section-white {
+  height: 3em;
+}
+
 /* Section 1 */
 .section-1 {
   padding: 3em;
@@ -156,6 +161,29 @@ header img {
 
 .help-box {
   margin: 0 auto;
+}
+
+/* Section 2 */
+.section-2 {
+  padding: 2em;
+  background-color: var(--red);
+}
+
+.section-2 h1 {
+  margin: 0.2em auto;
+}
+
+.section-2 h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 3em;
+  margin: 0.2em auto;
+}
+
+.arrow {
+  margin: -4.5em auto;
+  height: 10em;
+  display: block;
 }
 
 @media only screen and (min-width: 768px) {
@@ -200,26 +228,9 @@ header img {
   /* Section 2 */
   .section-2 {
     padding: 3em;
-    background-color: var(--red);
   }
 
-  .section-2 h1 {
-    margin: 0.2em auto;
-  }
-
-  .section-2 h2 {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 3em;
-    margin: 0.2em auto;
-  }
-
-  .arrow {
-    margin: -2em auto;
-    height: 10em;
-    display: block;
-  }
-
+  /* Section 3 */
   .section-3 {
     padding: 3em;
     background-color: var(--yellow);
