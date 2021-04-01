@@ -46,6 +46,10 @@ h3 {
   margin: 0 auto;
 }
 
+.m-1 {
+  margin: 1em;
+}
+
 .blue {
   color: var(--blue);
 }
@@ -59,8 +63,9 @@ h3 {
 }
 
 header img {
-  height: 5.5em;
+  height: 7em;
   margin: 3em auto;
+  display: block;
 }
 
 header p {
@@ -75,6 +80,7 @@ header button {
   font-size: 1.2em;
   padding: 0.3em 0.7em;
   margin: 0 auto;
+  display: block;
 }
 
 .section-1 {
@@ -117,6 +123,8 @@ header button {
 .arrow {
   margin: -2em auto;
   height: 10em;
+  display: block;
+
 }
 
 .section-3 {
@@ -125,8 +133,9 @@ header button {
 }
 
 .people {
-  margin-top: -14em;
+  margin: -5em auto;
   height: 10em;
+  display: block;
 }
 
 .section-4 {
@@ -141,7 +150,7 @@ header button {
   font-family: var(--lora);
   font-size: 1.2em;
   padding: 0.3em 0.7em;
-  margin: 0 auto;
+  float: right;
 }
 
 .section-4 .mobile {
@@ -154,7 +163,8 @@ header button {
   background-color: white;
   padding: 0.5em 1em;
   border-radius: 40px 40px 40px 0;
-  display: inline;
+  display: inline-block;
+  float: right;
 }
 
 .section-4 h2 span {
