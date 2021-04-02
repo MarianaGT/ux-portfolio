@@ -221,11 +221,6 @@ header img {
   margin: 0.3em;
 }
 
-.section-4 .mobile, .section-6 .mobile {
-  height: 24em;
-  margin: 1em;
-}
-
 .section-4 h2, .section-5 h2, .section-6 h2 {
   padding-bottom: 0.5em;
   border-bottom: 1px solid var(--charcoal);
@@ -245,6 +240,11 @@ header img {
   margin: 0 auto;
 }
 
+.mobile {
+  height: 24em;
+  margin: 1em auto;
+}
+
 /* Section 5 */
 .section-5 {
   padding: 1em;
@@ -261,6 +261,20 @@ header img {
 .section-6 {
   padding: 1em;
   background-color: var(--gray-green);
+}
+
+/* footer */
+footer {
+  padding: 1em;
+}
+
+footer a {
+  margin: 0 2em;
+  color: var(--charcoal);
+}
+
+footer a:hover {
+  background-color: var(--yellow);
 }
 
 @media only screen and (min-width: 768px) {
@@ -369,4 +383,6 @@ header img {
   .section-6 h5 {
     float: right;
   }
+
+  /* footer */
 }
