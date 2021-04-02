@@ -14,11 +14,11 @@
 body {
   margin: 0 auto;
   font-family: var(--source);
-  background-color: var(--blue);
 }
 
 header {
   padding: 1em;
+  background-color: var(--blue);
 }
 
 header h1 {
@@ -192,7 +192,7 @@ header img {
 }
 
 .arrow {
-  margin: -4.5em auto;
+  margin: -4em auto;
   height: 10em;
   display: block;
 }
@@ -270,7 +270,7 @@ footer {
   padding: 1em;
 }
 
-footer h3, h2, a {
+footer h3, footer h2, footer a {
   margin-left: 2em;
 }
 
