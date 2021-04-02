@@ -14,10 +14,10 @@
 body {
   margin: 0 auto;
   font-family: var(--source);
+  background-color: var(--blue);
 }
 
 header {
-  background-color: var(--blue);
   padding: 1em;
 }
 
@@ -97,7 +97,7 @@ header img {
 .btn-black {
   color: white;
   background-color: var(--charcoal);
-  border: none;
+  text-decoration: none;
   font-family: var(--lora);
   font-size: 1.2em;
   padding: 0.3em 0.7em;
@@ -134,7 +134,7 @@ header img {
 }
 
 #gifBtn, #pageBtn {
-  margin-bottom: 10em;
+  margin-bottom: 2em;
 }
 
 #displayChat {
@@ -157,11 +157,13 @@ header img {
 /* Section white */
 .section-white {
   height: 3em;
+  background-color: white;
 }
 
 /* Section 1 */
 .section-1 {
   padding: 3em;
+  background-color: white;
 }
 
 .welcome-box {
@@ -213,7 +215,7 @@ header img {
   background-color: var(--gray-blue);
 }
 
-.section-4 button, .section-5 button {
+.section-4 a, .section-5 a {
   margin-bottom: 3em;
 }
 
@@ -268,8 +270,11 @@ footer {
   padding: 1em;
 }
 
+footer h3, h2, a {
+  margin-left: 2em;
+}
+
 footer a {
-  margin: 0 2em;
   color: var(--charcoal);
 }
 
@@ -385,4 +390,9 @@ footer a:hover {
   }
 
   /* footer */
+  .flex-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
