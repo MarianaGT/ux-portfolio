@@ -172,6 +172,13 @@ header img {
 
 .help-box {
   margin: 0 auto;
+  line-height: 1.5em;
+}
+
+.hand {
+  height: 9em;
+  margin: -2em auto 0 auto;
+  display: block;
 }
 
 /* Section 2 */
