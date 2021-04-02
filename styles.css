@@ -204,16 +204,34 @@ header img {
   display: block;
 }
 
+/* Section 3.0 */
+.pre-section-3 {
+  height: 3em;
+  background-color: var(--yellow);
+}
+
+.pre-section-3 h5 {
+  margin: 1.5em 3em -1.5em 3em;
+  float: right;
+}
+
 /* Section 3 */
 .section-3 {
   padding: 2em;
   background-color: var(--yellow);
 }
 
+.section-3 h3 {
+  margin-top: 0;
+}
+
+.section-3 div {
+  margin-bottom: 5em;
+}
+
 .people {
-  margin: -5em auto;
+  margin-top: -5em;
   height: 10em;
-  display: block;
 }
 
 /* Section 4 */
@@ -331,6 +349,16 @@ footer a:hover {
   /* Section 2 */
   .section-2 {
     padding: 3em;
+  }
+
+  /* Section 3.0 */
+  .pre-section-3 {
+    height: 2.5em;
+  }
+
+  .pre-section-3 h5 {
+    margin: 1.5em 3em -1.5em 3em;
+    float: right;
   }
 
   /* Section 3 */
