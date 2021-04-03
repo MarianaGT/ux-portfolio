@@ -279,7 +279,7 @@ header img {
 }
 
 .section-5 img {
-  height: 14em;
+  height: 11.5em;
   display: block;
   margin: 0 auto;
 }
@@ -413,6 +413,12 @@ footer a:hover {
 
   .section-5 {
     padding: 3em;
+  }
+
+  .section-5 img {
+    height: 14em;
+    display: block;
+    margin: 0 auto;
   }
 
   /* Section 6 */
