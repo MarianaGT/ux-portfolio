@@ -229,7 +229,7 @@ header img {
   margin-bottom: 5em;
 }
 
-.people {
+.people, .people-hide {
   margin-top: -5em;
   height: 10em;
 }
@@ -279,7 +279,7 @@ header img {
 }
 
 .section-5 img {
-  height: 11.5em;
+  height: 9.8em;
   display: block;
   margin: 0 auto;
 }
@@ -374,6 +374,10 @@ footer a:hover {
     margin: -5em auto;
     height: 10em;
     display: block;
+  }
+
+  .people-hide {
+    display: none;
   }
 
   /* Section 4 */
