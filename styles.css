@@ -23,11 +23,12 @@ header {
 
 header h1 {
   margin: 2em 0 1em 0;
+  font-size: 2.2em;
 }
 
 h1 {
   color: white;
-  font-size: 3em;
+  font-size: 2.5em;
   font-family: var(--lora);
 }
 
@@ -194,7 +195,7 @@ header img {
 .section-2 h2 {
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 3em;
+  font-size: 2.2em;
   margin: 0.2em auto;
 }
 
@@ -314,6 +315,10 @@ footer a:hover {
     padding: 3em;
   }
 
+  header h1 {
+    font-size: 3em;
+  }
+
   h1 {
     font-size: 3.5em;
   }
@@ -353,6 +358,10 @@ footer a:hover {
   /* Section 2 */
   .section-2 {
     padding: 3em;
+  }
+
+  .section-2 h2 {
+    font-size: 3em;
   }
 
   /* Section 3.0 */
