@@ -27,7 +27,7 @@ header h1 {
 
 h1 {
   color: white;
-  font-size: 3.5em;
+  font-size: 3em;
   font-family: var(--lora);
 }
 
@@ -312,6 +312,10 @@ footer a:hover {
   header {
     background-color: var(--blue);
     padding: 3em;
+  }
+
+  h1 {
+    font-size: 3.5em;
   }
 
   .auto-margin {
