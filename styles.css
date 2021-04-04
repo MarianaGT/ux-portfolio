@@ -81,7 +81,7 @@ header img {
   background-color: white;
   border: none;
   font-family: var(--lora);
-  font-size: 1em;
+  font-size: 1.5em;
   padding: 0.3em 0.7em;
   margin: 0 auto;
   display: block;
@@ -209,6 +209,7 @@ header img {
 .pre-section-3 {
   height: 3em;
   background-color: var(--yellow);
+  border: 1px solid var(--yellow);
 }
 
 .pre-section-3 h5 {
@@ -230,9 +231,14 @@ header img {
   margin-bottom: 5em;
 }
 
-.people, .people-hide {
-  margin-top: -5em;
+.people {
+  margin: -5em auto;
   height: 10em;
+  display: block;
+}
+
+.people-hide {
+  display: none;
 }
 
 /* Section 4 */
@@ -294,6 +300,13 @@ header img {
 /* footer */
 footer {
   padding: 1em;
+  border: 1px solid var(--charcoal);
+  text-align: center;
+}
+
+footer img {
+  height: 1.5em;
+  margin: 1em;
 }
 
 footer a {
@@ -379,14 +392,10 @@ footer a:hover {
     padding: 3em;
   }
 
-  .people {
+  .people, .people-hide {
     margin: -5em auto;
     height: 10em;
     display: block;
-  }
-
-  .people-hide {
-    display: none;
   }
 
   /* Section 4 */
