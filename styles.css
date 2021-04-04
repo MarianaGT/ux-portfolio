@@ -22,7 +22,7 @@ header {
 }
 
 header h1 {
-  margin: 2em 0 1em 0;
+  margin: 2em 0 2em 0;
   font-size: 2.2em;
 }
 
@@ -81,7 +81,7 @@ header img {
   background-color: white;
   border: none;
   font-family: var(--lora);
-  font-size: 1.2em;
+  font-size: 1em;
   padding: 0.3em 0.7em;
   margin: 0 auto;
   display: block;
@@ -100,7 +100,7 @@ header img {
   background-color: var(--charcoal);
   text-decoration: none;
   font-family: var(--lora);
-  font-size: 1.2em;
+  font-size: 1em;
   padding: 0.3em 0.7em;
   float: right;
 }
@@ -280,7 +280,7 @@ header img {
 }
 
 .section-5 img {
-  height: 9.8em;
+  height: 9.5em;
   display: block;
   margin: 0 auto;
 }
@@ -294,10 +294,6 @@ header img {
 /* footer */
 footer {
   padding: 1em;
-}
-
-footer h3, footer h2, footer a {
-  margin-left: 2em;
 }
 
 footer a {
@@ -331,6 +327,10 @@ footer a:hover {
   .chat {
     margin-top: -3em;
     text-align: center;
+  }
+
+  .btn-white, .btn-black {
+    font-size: 1.2em;
   }
 
   /* Section 1 */
@@ -448,6 +448,10 @@ footer a:hover {
   }
 
   /* footer */
+
+  footer h3, footer h2, footer a {
+    margin-left: 2em;
+  }
   .flex-footer {
     display: flex;
     align-items: center;
