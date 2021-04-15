@@ -5,7 +5,7 @@
 <div align="center">
   <h3>
     <a href="https://www.marianagalan.site/">
-      Visit site
+      💡 Visit site
     </a>
   </h3>
 </div>
