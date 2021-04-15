@@ -41,11 +41,11 @@ This portfolio website includes 3 projects that you are invited to check out. Th
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
 - [Bicycle City Routes: Case Study](https://miro.com/app/board/o9J_lV2ppJg=/)
+- [Bicycle City Routes: Article - UX Research Findings](https://marianagt.medium.com/developers-cyclists-need-you-1eed4fa70cde)
 - [Decide for me: Github Repository](https://github.com/IbenFlores/decide_for_me)
 - [Decide for me: High-Fidelity Interactive Prototype](https://www.figma.com/proto/AyvYN3oqCs9fT78vCKDnq6/Decide-for-me?node-id=168%3A2&scaling=min-zoom)
 
 ## Contact
 
-- [Open Studio](https://mgalan-portfolio.netlify.app/)
 - [Web Developer projects](https://github.com/MarianaGT)
 - [LinkedIn profile](https://linkedin.com/in/mariana-gt)
