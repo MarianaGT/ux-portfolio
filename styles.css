@@ -324,7 +324,7 @@ footer a {
   color: var(--charcoal);
 }
 
-footer a:hover {
+footer img:hover {
   background-color: var(--yellow);
 }
 
