@@ -37,6 +37,14 @@ header a {
   padding: 2em;
 }
 
+.grid-4-8 a {
+  color: var(--charcoal);
+}
+
+.grid-4-8 a:hover {
+  font-weight: bold;
+}
+
 @media only screen and (min-width: 600px) {
   .grid-4-8 {
     display: grid;
