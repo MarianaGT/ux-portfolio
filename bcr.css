@@ -15,14 +15,33 @@
 body {
   background-color: var(--gray-blue);
   color: var(--gray);
+  font-family: var(--source);
+  line-height: 1.5em;
+}
+
+header {
   padding: 1em;
 }
 
+header a {
+  text-decoration: none;
+  color: var(--charcoal);
+  margin: 0 1em;
+}
+
 .navbar {
-  display: flex;
-  justify-content: space-around;
+  float: right;
 }
 
 .grid-4-8 {
-
+  padding: 2em;
 }
+
+@media only screen and (min-width: 600px) {
+  .grid-4-8 {
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    padding: 3em;
+  }
+}
+
