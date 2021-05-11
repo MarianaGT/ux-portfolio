@@ -1,6 +1,7 @@
 :root {
   --blue: #01D6F7;
   --charcoal: #2C2C2C;
+  --gray: #484848;
   --red: #FF7777;
   --yellow: #F4E600;
   --gray-blue: #C3EBEE;
@@ -9,4 +10,19 @@
   --lora: 'Lora', serif;
   --gloria: 'Gloria Hallelujah', cursive;
   --source: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  background-color: var(--gray-blue);
+  color: var(--gray);
+  padding: 1em;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.grid-4-8 {
+
 }
