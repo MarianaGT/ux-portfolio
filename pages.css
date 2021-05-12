@@ -150,6 +150,16 @@ footer img:hover {
   padding-bottom: 3em;
 }
 
+.resources a {
+  line-height: 2em;
+}
+
+.tech-stack img {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+
 @media only screen and (min-width: 600px) {
   .grid-4-8 {
     display: grid;
@@ -162,6 +172,10 @@ footer img:hover {
     grid-template-columns: 1fr 1fr;
     margin: 0 auto;
   }
+
+  .tech-stack img {
+    width: 45%;
+  }
 }
 
 @media only screen and (min-width: 940px) {
@@ -172,6 +186,8 @@ footer img:hover {
   .product-pitch img {
     width: 70%;
   }
+
+
 
 }
 
