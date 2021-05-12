@@ -126,6 +126,40 @@ header a:hover {
   justify-content: space-around;
 }
 
+.modal {
+
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: var(--blue);
+}
+
+.modal-content {
+  margin: 15% auto;
+  padding: 5em;
+  text-align: center;
+  line-height: 3em;
+}
+
+.modal-content a {
+  text-decoration: none;
+  color: var(--charcoal);
+}
+
+.close {
+  float: right;
+  padding: 1em;
+}
+
+.close:hover, .modal-content a:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
 footer {
   padding: 1em;
   float: right;
@@ -184,6 +218,10 @@ footer img:hover {
 
   .tech-stack img {
     width: 45%;
+  }
+
+  #menuModal {
+    display: none;
   }
 }
 
