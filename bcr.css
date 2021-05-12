@@ -3,8 +3,8 @@
   --charcoal: #2C2C2C;
   --gray: #484848;
   --light-gray: #f0f4f7;
-  --red: #FF7777;
-  --yellow: #F4E600;
+  --pink: #ffcfe0;
+  --orange: #ff9e4a;
   --gray-blue: #C3EBEE;
   --gray-purple: #E2EEEF;
   --gray-green: #EDF9E7;
@@ -74,6 +74,14 @@ header a:hover {
   background-color: var(--light-gray);
 }
 
+.pink {
+  background-color: var(--pink);
+}
+
+.orange {
+  background-color: var(--orange);
+}
+
 .section-4 {
   width: 100%;
 }
@@ -89,12 +97,35 @@ header a:hover {
 }
 
 .section-7 {
+  height: 18em;
+}
+
+.m-2 {
   margin: 2em;
 }
 
 .flex {
   display: flex;
   justify-content: space-around;
+}
+
+footer {
+  padding: 1em;
+  float: right;
+}
+
+footer p {
+  margin-right: 1em;
+}
+
+footer img {
+  height: 1.3em;
+  padding: 0.5em 0;
+  margin: 0.5em;
+}
+
+footer img:hover {
+  background-color: var(--blue);
 }
 
 @media only screen and (min-width: 600px) {
