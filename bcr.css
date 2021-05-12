@@ -30,6 +30,11 @@ header a {
   margin: 0 1em;
 }
 
+header a:hover {
+  font-weight: bold;
+  color: var(--blue);
+}
+
 .navbar {
   float: right;
 }
