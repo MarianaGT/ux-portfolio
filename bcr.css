@@ -2,6 +2,7 @@
   --blue: #01D6F7;
   --charcoal: #2C2C2C;
   --gray: #484848;
+  --light-gray: #f0f4f7;
   --red: #FF7777;
   --yellow: #F4E600;
   --gray-blue: #C3EBEE;
@@ -67,6 +68,10 @@ header a:hover {
 
 .blue {
   background-color: var(--blue);
+}
+
+.light-gray {
+  background-color: var(--light-gray);
 }
 
 .section-4 {
