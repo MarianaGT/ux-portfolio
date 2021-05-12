@@ -79,6 +79,10 @@ header a:hover {
   background-color: var(--gray-purple);
 }
 
+.gray-green {
+  background-color: var(--gray-green);
+}
+
 .light-gray {
   background-color: var(--light-gray);
 }
