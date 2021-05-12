@@ -127,7 +127,7 @@ header a:hover {
 }
 
 .modal {
-
+  display: none;
   position: fixed;
   z-index: 2;
   left: 0;
@@ -218,6 +218,10 @@ footer img:hover {
 
   .tech-stack img {
     width: 45%;
+  }
+
+  .menu {
+    display: none;
   }
 
   #menuModal {
