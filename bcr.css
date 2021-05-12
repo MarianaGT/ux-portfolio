@@ -88,6 +88,10 @@ header a:hover {
   height: 14em;
 }
 
+.section-7 {
+  margin: 2em;
+}
+
 .flex {
   display: flex;
   justify-content: space-around;
