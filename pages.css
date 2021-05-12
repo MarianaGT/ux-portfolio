@@ -141,6 +141,11 @@ footer img:hover {
   background-color: var(--blue);
 }
 
+/*BCR*/
+.overflow-hidden {
+  overflow: hidden;
+}
+
 /* Decide for me */
 .product-pitch span {
   color: var(--dark-pink);
