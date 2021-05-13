@@ -37,8 +37,12 @@ header a:hover {
   color: var(--blue);
 }
 
-.navbar {
+.menu {
   float: right;
+}
+
+.navbar {
+  display: none;
 }
 
 .sticky-note {
@@ -220,11 +224,16 @@ footer img:hover {
     width: 45%;
   }
 
-  .menu {
-    display: none;
+  .navbar {
+    display: block;
+    float: right;
   }
 
   #menuModal {
+    display: none;
+  }
+
+  #menuBtn {
     display: none;
   }
 }
@@ -237,8 +246,6 @@ footer img:hover {
   .product-pitch img {
     width: 70%;
   }
-
-
 
 }
 
