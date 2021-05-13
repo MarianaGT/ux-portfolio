@@ -207,6 +207,14 @@ footer img:hover {
   margin: 0 auto;
 }
 
+/*Keepo*/
+.badge {
+  border-radius: 12px;
+  padding: 0.2em 0.5em;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
 @media only screen and (min-width: 600px) {
   .grid-4-8 {
     display: grid;
