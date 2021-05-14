@@ -211,8 +211,9 @@ footer img:hover {
 .badge {
   border-radius: 12px;
   padding: 0.2em 0.5em;
-  font-size: 0.9em;
+  font-size: 0.8em;
   font-weight: bold;
+  margin: 0.5em;
 }
 
 .pt-2 {
@@ -255,12 +256,21 @@ footer img:hover {
 
   .grid-1-1 {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     margin: 0 auto;
   }
 
   .heuristic-evaluation img {
-    margin: 0 auto;
+    margin: 0.5em;
+  }
+
+  .issue-box {
+    padding: 2em;
+  }
+
+  .issue-flex {
+    display: flex;
+    justify-content: space-around;
   }
 
 }
