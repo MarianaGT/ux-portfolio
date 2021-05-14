@@ -233,6 +233,10 @@ h4 {
   padding-bottom: 0.5em;
 }
 
+.hide {
+  display: none;
+}
+
 @media only screen and (min-width: 600px) {
   .grid-4-8 {
     display: grid;
@@ -284,6 +288,10 @@ h4 {
   .issue-flex {
     display: flex;
     justify-content: space-around;
+  }
+
+  .hide {
+    display: block;
   }
 
 }
