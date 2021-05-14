@@ -255,7 +255,11 @@ footer img:hover {
 
   .grid-1-1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    margin: 0 auto;
+  }
+
+  .heuristic-evaluation img {
     margin: 0 auto;
   }
 
