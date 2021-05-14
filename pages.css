@@ -215,17 +215,15 @@ footer img:hover {
   font-weight: bold;
 }
 
+.pt-2 {
+  padding-top: 2em;
+}
+
 @media only screen and (min-width: 600px) {
   .grid-4-8 {
     display: grid;
     grid-template-columns: 4fr 8fr;
     padding: 3em;
-  }
-
-  .grid-1-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 0 auto;
   }
 
   .tech-stack img {
@@ -253,6 +251,12 @@ footer img:hover {
 
   .product-pitch img {
     width: 70%;
+  }
+
+  .grid-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
   }
 
 }
