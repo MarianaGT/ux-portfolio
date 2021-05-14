@@ -291,7 +291,8 @@ h4 {
   }
 
   .hide {
-    display: block;
+    display: flex;
+    justify-content: center;
   }
 
 }
