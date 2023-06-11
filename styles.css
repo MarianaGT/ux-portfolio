@@ -5,7 +5,9 @@
   --yellow: #F4E600;
   --gray-blue: #C3EBEE;
   --gray-purple: #E2EEEF;
+  --gray-indigo: #BED7FF;
   --gray-green: #EDF9E7;
+  --mint: #E5FBFF;
   --lora: 'Lora', serif;
   --gloria: 'Gloria Hallelujah', cursive;
   --source: 'Source Sans Pro', sans-serif;
@@ -68,6 +70,18 @@ h5 {
 
 .white {
   color: white;
+}
+
+.bg-gray-blue {
+  background-color: var(--gray-blue);
+}
+
+.bg-mint {
+  background-color: var(--mint);
+}
+
+.bg-indigo {
+  background-color: var(--gray-indigo);
 }
 
 .charcoal {
@@ -248,7 +262,6 @@ header img {
 /* Section 4 */
 .section-4 {
   padding: 1em;
-  background-color: var(--gray-blue);
 }
 
 .section-4 a, .section-5 a {
@@ -278,6 +291,20 @@ header img {
   height: 14em;
   margin: 1em;
   display: inline-block;
+}
+
+.screen-flex {
+  display: flex;
+  overflow-x: hidden;
+}
+.screen {
+  height: 10em;
+}
+
+.desktop img {
+  height: 15em;
+  display: block;
+  margin: 0 auto;
 }
 
 /* Section 5 */
@@ -412,7 +439,6 @@ footer img:hover {
   /* Section 4 */
   .section-4 {
     padding: 3em;
-    background-color: var(--gray-blue);
   }
 
   .section-4 p, .section-5 p, .section-6 p {
