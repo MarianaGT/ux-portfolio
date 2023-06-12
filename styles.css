@@ -76,12 +76,20 @@ h5 {
   background-color: var(--gray-blue);
 }
 
+.bg-purple {
+  background-color: var(--gray-purple);
+}
+
 .bg-mint {
   background-color: var(--mint);
 }
 
 .bg-indigo {
   background-color: var(--gray-indigo);
+}
+
+.bg-gray-green {
+  background-color: var(--gray-green);
 }
 
 .charcoal {
@@ -288,9 +296,9 @@ header img {
 }
 
 .mobile {
-  height: 14em;
-  margin: 1em;
-  display: inline-block;
+  display: block;
+  height: 25em;
+  margin: 1em auto;
 }
 
 .screen-flex {
@@ -302,7 +310,8 @@ header img {
 }
 
 .desktop img {
-  height: 15em;
+  padding-top: 4.5em;
+  height: 18em;
   display: block;
   margin: 0 auto;
 }
@@ -310,7 +319,6 @@ header img {
 /* Section 5 */
 .section-5 {
   padding: 2em 2em 3em 2em;
-  background-color: var(--gray-purple);
 }
 
 .section-5 img {
@@ -319,19 +327,13 @@ header img {
   margin: 0 auto;
 }
 
+#tandamos-phone {
+  height: 25em;
+}
+
 /* Section 6 */
 .section-6 {
   padding: 2em;
-  background-color: var(--gray-green);
-}
-
-.section-6 h5 {
-  margin: 1em 0;
-}
-
-.section-6 .mobile-box {
-  display: flex;
-  margin-top: 3em;
 }
 
 /* footer */
@@ -446,17 +448,8 @@ footer img:hover {
   }
 
   .section-4 .mobile, .section-6 .mobile {
-    height: 24em;
-    margin: 1em;
-  }
-
-  .mobile-box {
-    margin-top: 4em;
-  }
-
-  .mobile {
-    height: 24em;
-    margin: 1em auto;
+    height: 28em;
+    margin: 1.5em auto;
   }
 
   .section-6 h5 {
@@ -496,6 +489,15 @@ footer img:hover {
 
   .section-6 h5 {
     float: right;
+  }
+
+  .mobile-box {
+    display: block;
+    float: right;
+  }
+
+  .filler {
+    height: 5em;
   }
 
   /* footer */
