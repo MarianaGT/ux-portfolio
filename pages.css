@@ -10,6 +10,7 @@
   --gray-blue: #C3EBEE;
   --gray-purple: #E2EEEF;
   --gray-green: #EDF9E7;
+  --mint: #E5FBFF;
   --lora: 'Lora', serif;
   --gloria: 'Gloria Hallelujah', cursive;
   --source: 'Source Sans Pro', sans-serif;
@@ -89,6 +90,10 @@ header a:hover {
 
 .light-gray {
   background-color: var(--light-gray);
+}
+
+.mint {
+  background-color: var(--mint);
 }
 
 .pink {
@@ -237,6 +242,17 @@ h4 {
   display: none;
 }
 
+/*Tandamos*/
+.tandamos-screens {
+  margin-top: 2.5em;
+  margin-bottom: 2.3em;
+}
+
+.people-tanda {
+  margin-top: 3em;
+  margin-bottom: -3.5em;
+}
+
 @media only screen and (min-width: 600px) {
   .grid-4-8 {
     display: grid;
@@ -296,4 +312,3 @@ h4 {
   }
 
 }
-
